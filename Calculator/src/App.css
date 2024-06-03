@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: auto;
+  height: auto;
+  margin-top: 1%;
+}
+
+.inpus{
+  width: 600px;
+  height: 100px;
+  margin-bottom: 25px;
+  font-size: 48px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.subContainer1,.subContainer2,.subContainer3,.subContainer4,.subContainer5,.inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1,.item2,.item3,.item4,.item5{
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 25px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
